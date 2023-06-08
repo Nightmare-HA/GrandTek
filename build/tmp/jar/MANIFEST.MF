@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: core
+Specification-Vendor: coresareus
+Specification-Version: 1
+Implementation-Title: Magicalcraft-Nightmare-HA-template
+Implementation-Version: 1.16.5-0.1
+Implementation-Vendor: coresareus
+Implementation-Timestamp: 2023-06-05T13:58:18-0500
+

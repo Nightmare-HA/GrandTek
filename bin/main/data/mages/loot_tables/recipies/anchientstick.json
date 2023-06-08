@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients":[
+        {
+            "item": "mages:ancientplank"
+        }
+    ],
+    "result": {
+        "item": "mages:ancientstick",
+        "count": 2
+    }
+}

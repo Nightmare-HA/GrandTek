@@ -1,0 +1,9 @@
+{
+    "parent": "minecraft:block/orientable",
+    "textures": {
+        "top": "mages:block/top_face",
+        "side": "mages:block/side",
+        "bottom":"mages:block/bottom",
+        "front":"mages:block/side"
+    }
+}

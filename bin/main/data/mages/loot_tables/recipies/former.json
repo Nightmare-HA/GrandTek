@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#@#",
+        "@S@",
+        "#@#"
+    ],
+    "key": {
+        "S": {
+            "item": "mages:mysticalcrystal"
+        },
+        "#": {
+            "item": "mages:crystalblock"
+        },
+        "@": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+    "item": "mages:former",
+    "count" : 1
+    }
+}
