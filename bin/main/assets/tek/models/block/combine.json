@@ -1,0 +1,9 @@
+{
+    "parent": "minecraft:block/orientable",
+    "textures": {
+        "top": "tek:block/top_face",
+        "side": "tek:block/side",
+        "bottom":"tek:block/bottom",
+        "front":"tek:block/side"
+    }
+}

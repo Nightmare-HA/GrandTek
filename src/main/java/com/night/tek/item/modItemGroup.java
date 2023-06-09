@@ -7,7 +7,7 @@ public class modItemGroup {
     public static final ItemGroup CORE_GROUP = new ItemGroup("grandcore") {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(ModItems.CRYSTAL.get());
+            return new ItemStack(ModItems.BLACKDIAMOND.get());
         }
     };
 }

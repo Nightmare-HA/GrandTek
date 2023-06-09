@@ -11,13 +11,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class ModItems {
         public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, core.MOD_ID);
 
-        public static final RegistryObject<Item> CRYSTAL = ITEMS.register("mysticalcrystal",
-                        () -> new Item(new Item.Properties().group(modItemGroup.CORE_GROUP)));
-
-        public static final RegistryObject<Item> LENS = ITEMS.register("lens",
-                        () -> new Item(new Item.Properties().group(modItemGroup.CORE_GROUP)));
-
-        public static final RegistryObject<Item> SCEPTOR = ITEMS.register("sceptor",
+        public static final RegistryObject<Item> BLACKDIAMOND = ITEMS.register("blackdiamond",
                         () -> new Item(new Item.Properties().group(modItemGroup.CORE_GROUP)));
 
         public static void register(IEventBus eventBus) {

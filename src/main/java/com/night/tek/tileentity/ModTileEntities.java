@@ -14,9 +14,9 @@ public class ModTileEntities {
     public static DeferredRegister<TileEntityType<?>> TILE_ENTITIES = DeferredRegister
             .create(ForgeRegistries.TILE_ENTITIES, core.MOD_ID);
 
-    public static RegistryObject<TileEntityType<FormerTile>> FORMER_TILE = TILE_ENTITIES.register("formertile",
+    public static RegistryObject<TileEntityType<CombineTile>> COMBINE_TILE = TILE_ENTITIES.register("combinetile",
             () -> TileEntityType.Builder.create(
-                    FormerTile::new, modblocks.FORMER.get()).build(null));
+                    CombineTile::new, modblocks.COMBINE.get()).build(null));
 
     public static void register(IEventBus eventBus) {
         TILE_ENTITIES.register(eventBus);

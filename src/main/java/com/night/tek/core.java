@@ -6,7 +6,9 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import com.night.tek.block.modblocks;
+import com.night.tek.container.ModContainers;
 import com.night.tek.item.ModItems;
+import com.night.tek.tileentity.ModTileEntities;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -37,6 +39,8 @@ public class core {
 
         ModItems.register(eventBus);
         modblocks.register(eventBus);
+        ModTileEntities.register(eventBus);
+        ModContainers.register(eventBus);
 
         eventBus.addListener(this::setup);
         // Register the enqueueIMC method for modloading

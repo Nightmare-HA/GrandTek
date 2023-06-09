@@ -7,7 +7,7 @@ import net.minecraftforge.common.util.Lazy;
 
 public enum OreType {
 
-    MYSTICAL(Lazy.of(modblocks.MYSTICALORE), 10, 1, 64);
+    blackdiamond(Lazy.of(modblocks.BLACKDIAMONDORE), 20, 1, 120);
 
     private final Lazy<Block> block;
     private final int maxVeinSize;

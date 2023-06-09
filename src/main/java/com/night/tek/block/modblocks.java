@@ -1,10 +1,10 @@
 package com.night.tek.block;
 
+import com.google.common.base.Supplier;
 import com.night.tek.core;
-import com.night.tek.block.custom.FormerBlock;
+import com.night.tek.block.custom.combine;
 import com.night.tek.item.ModItems;
 import com.night.tek.item.modItemGroup;
-import com.google.common.base.Supplier;
 
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -21,18 +21,14 @@ public class modblocks {
         public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS,
                         core.MOD_ID);
 
-        public static final RegistryObject<Block> MYSTICALORE = registerBlock("mysticalore",
+        public static final RegistryObject<Block> BLACKDIAMONDORE = registerBlock("blackdiamondore",
                         () -> new Block(AbstractBlock.Properties.create(Material.ROCK).harvestLevel(1)
                                         .harvestTool(ToolType.PICKAXE).setRequiresTool().hardnessAndResistance(5f)));
 
-        public static final RegistryObject<Block> FORMER = registerBlock("former",
-                        () -> new FormerBlock(AbstractBlock.Properties.create(Material.IRON)));
+        public static final RegistryObject<Block> COMBINE = registerBlock("combine",
+                        () -> new combine(AbstractBlock.Properties.create(Material.IRON)));
 
-        public static final RegistryObject<Block> CRYSTALBLOCK = registerBlock("crystalblock",
-                        () -> new Block(AbstractBlock.Properties.create(Material.ROCK).harvestLevel(0)
-                                        .harvestTool(ToolType.PICKAXE).setRequiresTool().hardnessAndResistance(7f)));
-
-        public static final RegistryObject<Block> ANCIENTPLANK = registerBlock("ancientplanks",
+        public static final RegistryObject<Block> BLACKDIAMONDBLOCK = registerBlock("blackdiamondblock",
                         () -> new Block(AbstractBlock.Properties.create(Material.ROCK).harvestLevel(0)
                                         .harvestTool(ToolType.PICKAXE).setRequiresTool().hardnessAndResistance(7f)));
 
