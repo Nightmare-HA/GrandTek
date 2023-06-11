@@ -13,6 +13,7 @@ import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.inventory.container.Container;
 import net.minecraft.inventory.container.INamedContainerProvider;
+import net.minecraft.state.IntegerProperty;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.ActionResultType;
 import net.minecraft.util.Hand;
@@ -25,8 +26,7 @@ import net.minecraft.world.World;
 import net.minecraftforge.fml.network.NetworkHooks;
 
 public class combine extends Block {
-
-    public combine(Properties properties) {
+    public combine(net.minecraft.block.AbstractBlock.Properties properties) {
         super(properties);
     }
 
@@ -40,7 +40,6 @@ public class combine extends Block {
             if (!player.isCrouching()) {
                 if (tileEntity instanceof CombineTile) {
                     INamedContainerProvider containerProvider = createContainerProvider(worldIn, pos);
-                    ((CombineTile) tileEntity).generate();
 
                     NetworkHooks.openGui(((ServerPlayerEntity) player), containerProvider, tileEntity.getPos());
                 } else {
@@ -64,7 +63,7 @@ public class combine extends Block {
 
             @Override
             public ITextComponent getDisplayName() {
-                return new TranslationTextComponent("block.tek.former");
+                return new TranslationTextComponent("block.tek.combine");
             }
 
         };
@@ -79,5 +78,10 @@ public class combine extends Block {
     @Override
     public boolean hasTileEntity(BlockState state) {
         return true;
+    }
+
+    public static class Properties {
+        public static final IntegerProperty STATE = IntegerProperty.create("state", 0, 2);
+
     }
 }
