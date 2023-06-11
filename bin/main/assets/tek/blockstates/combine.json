@@ -1,5 +1,7 @@
 {
     "variants":{
-        "":{"model":"tek:block/combine"}
+        "state=1":{"model":"tek:block/combine_inactive"},
+        "state=2":{"model":"tek:block/combine_opened"},
+        "state=3":{"model":"tek:block/combine_compressed"}
     }
 }
