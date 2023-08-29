@@ -1,6 +1,6 @@
 {
     "parent":"item/generated",
     "textures":{
-        "layer0":"mages:item/sceptersocket"
+        "layer0":"tek:item/blackdiamond"
     }
 }
