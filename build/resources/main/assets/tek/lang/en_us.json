@@ -1,8 +1,9 @@
 {
-    "item.mages.mysticalcrystal":"Mystical Crystal",
-    "item.mages.lens":"Crystal Lens",
+    "item.tek.blackdiamond":"Black Diamond",
 
-    "block.mages.mysticalore":"Mystical Ore",
+    "block.tek.blackdiamondore":"Black Diamond Ore",
+    "block.tek.blackdiamondblock":"Block of Black Diamond",
+    "block.tek.combine":"Combine",
 
-    "itemGroup.grandcore":"Magical Craft"
+    "itemGroup.grandcore":"GrandTek"
 }
