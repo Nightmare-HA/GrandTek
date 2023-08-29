@@ -1,49 +1,48 @@
-[29Aug2023 18:22:56.525] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 36.2.34, --assetIndex, 1.16, --assetsDir, C:\Users\burdi\.gradle\caches\forge_gradle\assets, --version, MOD_DEV, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
-[29Aug2023 18:22:56.532] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 1.8.0_372 by Temurin
-[29Aug2023 18:22:57.278] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[29Aug2023 18:22:57.363] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/C:/Users/burdi/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.4/4ec7d77d9ab32596ca0b78bb123956734767e3a/mixin-0.8.4.jar Service=ModLauncher Env=CLIENT
-[29Aug2023 18:23:01.016] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\burdi\.gradle\caches\forge_gradle\assets, --assetIndex, 1.16, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
-[29Aug2023 18:23:14.468] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[29Aug2023 18:23:15.169] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[29Aug2023 18:23:15.415] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
-[29Aug2023 18:23:19.119] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.34, for MC 1.16.5 with MCP 20210115.111550
-[29Aug2023 18:23:19.210] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.34 Initialized
-[29Aug2023 18:23:20.027] [Render thread/INFO] [com.night.tek.core/]: HELLO from Register Block
-[29Aug2023 18:23:23.019] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
-[29Aug2023 18:23:23.101] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
-[29Aug2023 18:23:23.215] [Worker-Main-4/INFO] [com.night.tek.core/]: HELLO FROM PREINIT
-[29Aug2023 18:23:23.215] [Worker-Main-4/INFO] [com.night.tek.core/]: DIRT BLOCK >> minecraft:dirt
-[29Aug2023 18:23:23.290] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[29Aug2023 18:23:23.637] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 36.2.34 Target: null
-[29Aug2023 18:23:33.428] [Worker-Main-6/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: tek:blockstates/blackdiamondore.json: java.io.FileNotFoundException: tek:blockstates/blackdiamondore.json
-[29Aug2023 18:23:33.429] [Worker-Main-6/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'tek:blockstates/blackdiamondore.json' missing model for variant: 'tek:blackdiamondore#'
-[29Aug2023 18:23:33.433] [Worker-Main-6/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: tek:blockstates/blackdiamondblock.json: java.io.FileNotFoundException: tek:blockstates/blackdiamondblock.json
-[29Aug2023 18:23:33.433] [Worker-Main-6/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'tek:blockstates/blackdiamondblock.json' missing model for variant: 'tek:blackdiamondblock#'
-[29Aug2023 18:23:36.359] [Worker-Main-6/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'tek:blackdiamondore#inventory' referenced from: tek:blackdiamondore#inventory: java.io.FileNotFoundException: tek:models/item/blackdiamondore.json
-[29Aug2023 18:23:36.360] [Worker-Main-6/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'tek:combine#inventory' referenced from: tek:combine#inventory: java.io.FileNotFoundException: tek:models/item/combine.json
-[29Aug2023 18:23:36.362] [Worker-Main-6/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'tek:blackdiamondblock#inventory' referenced from: tek:blackdiamondblock#inventory: java.io.FileNotFoundException: tek:models/item/blackdiamondblock.json
-[29Aug2023 18:23:41.534] [Worker-Main-8/INFO] [com.night.tek.core/]: Got IMC []
-[29Aug2023 18:23:44.278] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
-[29Aug2023 18:23:44.280] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
-[29Aug2023 18:23:45.027] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[29Aug2023 18:23:45.227] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[29Aug2023 18:23:45.227] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[29Aug2023 18:23:45.230] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[29Aug2023 18:23:45.232] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[29Aug2023 18:23:45.233] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[29Aug2023 18:23:45.234] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[29Aug2023 18:23:47.195] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[29Aug2023 18:23:47.202] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[29Aug2023 18:23:47.203] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[29Aug2023 18:23:47.518] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[29Aug2023 18:24:18.000] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[29Aug2023 18:24:18.002] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[29Aug2023 18:24:18.004] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[29Aug2023 18:24:18.005] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[29Aug2023 18:24:18.007] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[29Aug2023 18:24:18.012] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar, main
-[29Aug2023 18:24:21.121] [Render thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
-[29Aug2023 18:24:21.512] [Render thread/ERROR] [net.minecraft.loot.LootTableManager/]: Couldn't parse loot table mages:blocks/cryststalblock
+[29Aug2023 18:49:43.496] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 36.2.34, --assetIndex, 1.16, --assetsDir, C:\Users\burdi\.gradle\caches\forge_gradle\assets, --version, MOD_DEV, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[29Aug2023 18:49:43.505] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 1.8.0_372 by Temurin
+[29Aug2023 18:49:44.520] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[29Aug2023 18:49:44.613] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/C:/Users/burdi/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.4/4ec7d77d9ab32596ca0b78bb123956734767e3a/mixin-0.8.4.jar Service=ModLauncher Env=CLIENT
+[29Aug2023 18:49:49.415] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\burdi\.gradle\caches\forge_gradle\assets, --assetIndex, 1.16, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[29Aug2023 18:50:03.449] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[29Aug2023 18:50:04.167] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[29Aug2023 18:50:04.401] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
+[29Aug2023 18:50:06.458] [modloading-worker-3/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.34, for MC 1.16.5 with MCP 20210115.111550
+[29Aug2023 18:50:06.526] [modloading-worker-3/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.34 Initialized
+[29Aug2023 18:50:07.020] [Render thread/INFO] [com.night.tek.core/]: HELLO from Register Block
+[29Aug2023 18:50:10.008] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[29Aug2023 18:50:10.187] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[29Aug2023 18:50:10.425] [Worker-Main-5/INFO] [com.night.tek.core/]: HELLO FROM PREINIT
+[29Aug2023 18:50:10.426] [Worker-Main-5/INFO] [com.night.tek.core/]: DIRT BLOCK >> minecraft:dirt
+[29Aug2023 18:50:10.563] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[29Aug2023 18:50:10.940] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 36.2.34 Target: null
+[29Aug2023 18:50:19.865] [Worker-Main-4/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: tek:blockstates/blackdiamondore.json: java.io.FileNotFoundException: tek:blockstates/blackdiamondore.json
+[29Aug2023 18:50:19.882] [Worker-Main-4/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'tek:blockstates/blackdiamondore.json' missing model for variant: 'tek:blackdiamondore#'
+[29Aug2023 18:50:19.888] [Worker-Main-4/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: tek:blockstates/blackdiamondblock.json: java.io.FileNotFoundException: tek:blockstates/blackdiamondblock.json
+[29Aug2023 18:50:19.888] [Worker-Main-4/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'tek:blockstates/blackdiamondblock.json' missing model for variant: 'tek:blackdiamondblock#'
+[29Aug2023 18:50:21.810] [Worker-Main-4/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'tek:blackdiamondore#inventory' referenced from: tek:blackdiamondore#inventory: java.io.FileNotFoundException: tek:models/item/blackdiamondore.json
+[29Aug2023 18:50:21.824] [Worker-Main-4/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'tek:blackdiamondblock#inventory' referenced from: tek:blackdiamondblock#inventory: java.io.FileNotFoundException: tek:models/item/blackdiamondblock.json
+[29Aug2023 18:50:25.446] [Worker-Main-4/INFO] [com.night.tek.core/]: Got IMC []
+[29Aug2023 18:50:28.641] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[29Aug2023 18:50:28.643] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[29Aug2023 18:50:29.297] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[29Aug2023 18:50:29.458] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[29Aug2023 18:50:29.459] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[29Aug2023 18:50:29.461] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[29Aug2023 18:50:29.462] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[29Aug2023 18:50:29.463] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[29Aug2023 18:50:29.464] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[29Aug2023 18:50:30.713] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[29Aug2023 18:50:30.722] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[29Aug2023 18:50:30.728] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[29Aug2023 18:50:31.024] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[29Aug2023 18:52:02.598] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[29Aug2023 18:52:02.599] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[29Aug2023 18:52:02.601] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[29Aug2023 18:52:02.602] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[29Aug2023 18:52:02.603] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[29Aug2023 18:52:02.611] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar, main
+[29Aug2023 18:52:04.364] [Render thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
+[29Aug2023 18:52:04.544] [Render thread/ERROR] [net.minecraft.loot.LootTableManager/]: Couldn't parse loot table mages:blocks/cryststalblock
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'mages:mysticalcrystal'
 	at net.minecraft.util.JSONUtils.lambda$getItem$0(JSONUtils.java:111) ~[forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_372]
@@ -111,7 +110,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) ~[lwjgl-glfw-3.2.2.jar:build 10]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar:build 10]
 	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3101) ~[lwjgl-glfw-3.2.2.jar:build 10]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:93) ~[forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:89) ~[forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
 	at net.minecraft.client.MainWindow.flipFrame(MainWindow.java:306) ~[forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
 	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1023) ~[forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:612) ~[forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
@@ -127,7 +126,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.1.3.jar:?]
 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.1.3.jar:?]
 	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:108) [forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
-[29Aug2023 18:24:23.204] [Render thread/ERROR] [net.minecraft.loot.LootTableManager/]: Couldn't parse loot table mages:blocks/mysticalore
+[29Aug2023 18:52:05.367] [Render thread/ERROR] [net.minecraft.loot.LootTableManager/]: Couldn't parse loot table mages:blocks/mysticalore
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'mages:mysticalcrystal'
 	at net.minecraft.util.JSONUtils.lambda$getItem$0(JSONUtils.java:111) ~[forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_372]
@@ -195,7 +194,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) ~[lwjgl-glfw-3.2.2.jar:build 10]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar:build 10]
 	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3101) ~[lwjgl-glfw-3.2.2.jar:build 10]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:93) ~[forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:89) ~[forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
 	at net.minecraft.client.MainWindow.flipFrame(MainWindow.java:306) ~[forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
 	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1023) ~[forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:612) ~[forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
@@ -211,7 +210,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.1.3.jar:?]
 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.1.3.jar:?]
 	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:108) [forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
-[29Aug2023 18:24:23.593] [Render thread/ERROR] [net.minecraft.loot.LootTableManager/]: Couldn't parse loot table mages:blocks/former
+[29Aug2023 18:52:05.542] [Render thread/ERROR] [net.minecraft.loot.LootTableManager/]: Couldn't parse loot table mages:blocks/former
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'mages:former'
 	at net.minecraft.util.JSONUtils.lambda$getItem$0(JSONUtils.java:111) ~[forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_372]
@@ -279,7 +278,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) ~[lwjgl-glfw-3.2.2.jar:build 10]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar:build 10]
 	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3101) ~[lwjgl-glfw-3.2.2.jar:build 10]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:93) ~[forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:89) ~[forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
 	at net.minecraft.client.MainWindow.flipFrame(MainWindow.java:306) ~[forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
 	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1023) ~[forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:612) ~[forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
@@ -295,16 +294,16 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.1.3.jar:?]
 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.1.3.jar:?]
 	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:108) [forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
-[29Aug2023 18:24:24.834] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 advancements
-[29Aug2023 18:24:25.158] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
-[29Aug2023 18:24:26.685] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[29Aug2023 18:24:26.686] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[29Aug2023 18:24:26.687] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[29Aug2023 18:24:26.689] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[29Aug2023 18:24:26.699] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[29Aug2023 18:24:26.700] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar, main
-[29Aug2023 18:24:28.730] [Render thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
-[29Aug2023 18:24:28.903] [Render thread/ERROR] [net.minecraft.loot.LootTableManager/]: Couldn't parse loot table mages:blocks/cryststalblock
+[29Aug2023 18:52:05.963] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 advancements
+[29Aug2023 18:52:06.142] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[29Aug2023 18:52:07.239] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[29Aug2023 18:52:07.241] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[29Aug2023 18:52:07.243] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[29Aug2023 18:52:07.244] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[29Aug2023 18:52:07.245] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[29Aug2023 18:52:07.245] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar, main
+[29Aug2023 18:52:08.993] [Render thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
+[29Aug2023 18:52:09.117] [Render thread/ERROR] [net.minecraft.loot.LootTableManager/]: Couldn't parse loot table mages:blocks/cryststalblock
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'mages:mysticalcrystal'
 	at net.minecraft.util.JSONUtils.lambda$getItem$0(JSONUtils.java:111) ~[forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_372]
@@ -372,7 +371,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) ~[lwjgl-glfw-3.2.2.jar:build 10]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar:build 10]
 	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3101) ~[lwjgl-glfw-3.2.2.jar:build 10]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:93) ~[forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:89) ~[forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
 	at net.minecraft.client.MainWindow.flipFrame(MainWindow.java:306) ~[forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
 	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1023) ~[forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:612) ~[forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
@@ -388,7 +387,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.1.3.jar:?]
 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.1.3.jar:?]
 	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:108) [forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
-[29Aug2023 18:24:29.666] [Render thread/ERROR] [net.minecraft.loot.LootTableManager/]: Couldn't parse loot table mages:blocks/mysticalore
+[29Aug2023 18:52:09.903] [Render thread/ERROR] [net.minecraft.loot.LootTableManager/]: Couldn't parse loot table mages:blocks/mysticalore
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'mages:mysticalcrystal'
 	at net.minecraft.util.JSONUtils.lambda$getItem$0(JSONUtils.java:111) ~[forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_372]
@@ -456,7 +455,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) ~[lwjgl-glfw-3.2.2.jar:build 10]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar:build 10]
 	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3101) ~[lwjgl-glfw-3.2.2.jar:build 10]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:93) ~[forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:89) ~[forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
 	at net.minecraft.client.MainWindow.flipFrame(MainWindow.java:306) ~[forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
 	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1023) ~[forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:612) ~[forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
@@ -472,7 +471,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.1.3.jar:?]
 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.1.3.jar:?]
 	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:108) [forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
-[29Aug2023 18:24:29.844] [Render thread/ERROR] [net.minecraft.loot.LootTableManager/]: Couldn't parse loot table mages:blocks/former
+[29Aug2023 18:52:10.079] [Render thread/ERROR] [net.minecraft.loot.LootTableManager/]: Couldn't parse loot table mages:blocks/former
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'mages:former'
 	at net.minecraft.util.JSONUtils.lambda$getItem$0(JSONUtils.java:111) ~[forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_372]
@@ -540,7 +539,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) ~[lwjgl-glfw-3.2.2.jar:build 10]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar:build 10]
 	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3101) ~[lwjgl-glfw-3.2.2.jar:build 10]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:93) ~[forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:89) ~[forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
 	at net.minecraft.client.MainWindow.flipFrame(MainWindow.java:306) ~[forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
 	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1023) ~[forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:612) ~[forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
@@ -556,47 +555,56 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.1.3.jar:?]
 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.1.3.jar:?]
 	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:108) [forge-1.16.5-36.2.34_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
-[29Aug2023 18:24:30.189] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 advancements
-[29Aug2023 18:24:30.311] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
-[29Aug2023 18:24:31.934] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[29Aug2023 18:24:31.982] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.16.5
-[29Aug2023 18:24:31.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[29Aug2023 18:24:32.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[29Aug2023 18:24:35.812] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29Aug2023 18:24:35.812] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29Aug2023 18:24:35.812] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29Aug2023 18:24:35.813] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29Aug2023 18:24:35.813] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29Aug2023 18:24:35.820] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29Aug2023 18:24:35.820] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29Aug2023 18:24:36.156] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[29Aug2023 18:24:36.427] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 55%
-[29Aug2023 18:24:36.819] [Server thread/INFO] [com.night.tek.core/]: HELLO from server starting
-[29Aug2023 18:24:36.844] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 4467 ms
-[29Aug2023 18:24:37.348] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 11, from 10
-[29Aug2023 18:24:39.848] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
-[29Aug2023 18:24:40.181] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@277c08c2
-[29Aug2023 18:24:40.213] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:c537b83e] logged in with entity id 256 at (6.585943627790892, 68.0, -97.42551257009167)
-[29Aug2023 18:24:40.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[29Aug2023 18:24:41.213] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2744ms or 54 ticks behind
-[29Aug2023 18:24:41.539] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[29Aug2023 18:24:41.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[29Aug2023 18:24:42.087] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 0 advancements
-[29Aug2023 18:24:43.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[29Aug2023 18:24:43.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[29Aug2023 18:28:27.868] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
-[29Aug2023 18:28:27.886] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
-[29Aug2023 18:28:27.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[29Aug2023 18:28:27.897] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
-[29Aug2023 18:28:28.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[29Aug2023 18:28:28.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[29Aug2023 18:28:28.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[29Aug2023 18:28:28.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[29Aug2023 18:28:28.709] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World (1)): All chunks are saved
-[29Aug2023 18:28:28.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[29Aug2023 18:28:28.711] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[29Aug2023 18:28:28.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[29Aug2023 18:28:28.712] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[29Aug2023 18:28:28.747] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World (1)): All chunks are saved
-[29Aug2023 18:28:28.755] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[29Aug2023 18:28:28.756] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[29Aug2023 18:52:10.400] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 advancements
+[29Aug2023 18:52:10.466] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[29Aug2023 18:52:12.066] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[29Aug2023 18:52:12.107] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.16.5
+[29Aug2023 18:52:12.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[29Aug2023 18:52:12.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[29Aug2023 18:52:15.374] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29Aug2023 18:52:15.376] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29Aug2023 18:52:15.376] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29Aug2023 18:52:15.376] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29Aug2023 18:52:15.376] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29Aug2023 18:52:15.376] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29Aug2023 18:52:15.440] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29Aug2023 18:52:16.303] [Server thread/INFO] [com.night.tek.core/]: HELLO from server starting
+[29Aug2023 18:52:16.307] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 3868 ms
+[29Aug2023 18:52:16.755] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 11, from 10
+[29Aug2023 18:52:18.825] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[29Aug2023 18:52:18.891] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@4a97da3d
+[29Aug2023 18:52:18.939] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:1df97605] logged in with entity id 261 at (6.585943627790892, 68.0, -97.42551257009167)
+[29Aug2023 18:52:18.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[29Aug2023 18:52:19.505] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[29Aug2023 18:52:19.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[29Aug2023 18:52:19.996] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 0 advancements
+[29Aug2023 18:52:20.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[29Aug2023 18:52:20.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[29Aug2023 18:52:20.707] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2053ms or 41 ticks behind
+[29Aug2023 18:52:30.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set the time to 1000]
+[29Aug2023 18:52:30.302] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Set the time to 1000
+[29Aug2023 18:52:42.719] [Render thread/WARN] [net.minecraft.client.gui.ScreenManager/]: Failed to create screen for menu type: tek:combinecontainer
+[29Aug2023 18:52:46.509] [Render thread/WARN] [net.minecraft.client.gui.ScreenManager/]: Failed to create screen for menu type: tek:combinecontainer
+[29Aug2023 18:52:47.009] [Render thread/WARN] [net.minecraft.client.gui.ScreenManager/]: Failed to create screen for menu type: tek:combinecontainer
+[29Aug2023 18:52:47.358] [Render thread/WARN] [net.minecraft.client.gui.ScreenManager/]: Failed to create screen for menu type: tek:combinecontainer
+[29Aug2023 18:52:47.709] [Render thread/WARN] [net.minecraft.client.gui.ScreenManager/]: Failed to create screen for menu type: tek:combinecontainer
+[29Aug2023 18:52:53.855] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[29Aug2023 18:52:53.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[29Aug2023 18:52:54.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[29Aug2023 18:52:54.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[29Aug2023 18:52:55.908] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[29Aug2023 18:52:55.971] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
+[29Aug2023 18:52:55.971] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[29Aug2023 18:52:55.989] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[29Aug2023 18:52:56.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[29Aug2023 18:52:56.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[29Aug2023 18:52:56.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[29Aug2023 18:52:56.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[29Aug2023 18:52:56.420] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World (1)): All chunks are saved
+[29Aug2023 18:52:56.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[29Aug2023 18:52:56.421] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[29Aug2023 18:52:56.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[29Aug2023 18:52:56.422] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[29Aug2023 18:52:56.453] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World (1)): All chunks are saved
+[29Aug2023 18:52:56.460] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[29Aug2023 18:52:56.461] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

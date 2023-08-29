@@ -12,8 +12,6 @@ import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.tileentity.TileEntityType;
 import net.minecraft.util.Direction;
-import net.minecraft.util.SoundCategory;
-import net.minecraft.util.SoundEvents;
 import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.common.util.LazyOptional;
 import net.minecraftforge.items.CapabilityItemHandler;
@@ -120,9 +118,6 @@ public class CombineTile extends TileEntity {
                 ItemStack ItemStack = this.itemHandler.getStackInSlot(4);
                 this.itemHandler.insertItem(4, ItemStack, false);
             }
-
-            world.playSound(null, pos, SoundEvents.BLOCK_ANVIL_PLACE, SoundCategory.BLOCKS, 1, 1);
         }
-
     }
 }
