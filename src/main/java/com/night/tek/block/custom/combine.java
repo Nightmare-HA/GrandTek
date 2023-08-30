@@ -4,7 +4,6 @@ import javax.annotation.Nullable;
 
 import com.night.tek.container.CombineContainer;
 import com.night.tek.tileentity.CombineTile;
-import com.night.tek.tileentity.ModTileEntities;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -20,7 +19,6 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.BlockRayTraceResult;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TranslationTextComponent;
-import net.minecraft.world.IBlockReader;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.network.NetworkHooks;
 
@@ -67,16 +65,4 @@ public class combine extends Block {
 
         };
     }
-
-    @Override
-    @Nullable
-    public TileEntity createTileEntity(BlockState state, IBlockReader world) {
-        return ModTileEntities.COMBINE_TILE.get().create();
-    }
-
-    @Override
-    public boolean hasTileEntity(BlockState state) {
-        return true;
-    }
-
 }
