@@ -69,7 +69,7 @@ public class CombineTile extends TileEntity {
 
             @Override
             public int getSlotLimit(int slot) {
-                return 1;
+                return 2;
             }
 
             @Nonnull
@@ -95,22 +95,22 @@ public class CombineTile extends TileEntity {
     }
 
     public void generate() {
-        boolean ready0 = this.itemHandler.getStackInSlot(0).getCount() > 0
+        boolean ready0 = this.itemHandler.getStackInSlot(0).getCount() == 2
                 && this.itemHandler.getStackInSlot(0).getItem() == ModItems.BLACKDIAMOND.get();
-        boolean ready1 = this.itemHandler.getStackInSlot(1).getCount() > 0
+        boolean ready1 = this.itemHandler.getStackInSlot(1).getCount() == 2
                 && this.itemHandler.getStackInSlot(1).getItem() == ModItems.BLACKDIAMOND.get();
-        boolean ready2 = this.itemHandler.getStackInSlot(2).getCount() > 0
+        boolean ready2 = this.itemHandler.getStackInSlot(2).getCount() == 2
                 && this.itemHandler.getStackInSlot(2).getItem() == ModItems.BLACKDIAMOND.get();
-        boolean ready3 = this.itemHandler.getStackInSlot(3).getCount() > 0
+        boolean ready3 = this.itemHandler.getStackInSlot(3).getCount() == 2
                 && this.itemHandler.getStackInSlot(3).getItem() == ModItems.BLACKDIAMOND.get();
-        boolean ready4 = this.itemHandler.getStackInSlot(4).getCount() < 64
+        boolean ready4 = this.itemHandler.getStackInSlot(4).getCount() != 1
                 && this.itemHandler.equals(modblocks.BLACKDIAMONDBLOCK);
 
         if (ready0 && ready1 && ready2 && ready3 && ready4) {
-            this.itemHandler.getStackInSlot(0).shrink(1);
-            this.itemHandler.getStackInSlot(1).shrink(1);
-            this.itemHandler.getStackInSlot(2).shrink(1);
-            this.itemHandler.getStackInSlot(3).shrink(1);
+            this.itemHandler.getStackInSlot(0).shrink(2);
+            this.itemHandler.getStackInSlot(1).shrink(2);
+            this.itemHandler.getStackInSlot(2).shrink(2);
+            this.itemHandler.getStackInSlot(3).shrink(2);
 
             if (this.itemHandler.getStackInSlot(4).getCount() < 1) {
                 this.itemHandler.insertItem(4, new ItemStack(modblocks.BLACKDIAMONDBLOCK.get()), false);
