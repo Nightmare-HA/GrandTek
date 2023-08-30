@@ -13,7 +13,6 @@ import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.inventory.container.Container;
 import net.minecraft.inventory.container.INamedContainerProvider;
-import net.minecraft.state.IntegerProperty;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.ActionResultType;
 import net.minecraft.util.Hand;
@@ -80,8 +79,4 @@ public class combine extends Block {
         return true;
     }
 
-    public static class Properties {
-        public static final IntegerProperty STATE = IntegerProperty.create("state", 0, 2);
-
-    }
 }
