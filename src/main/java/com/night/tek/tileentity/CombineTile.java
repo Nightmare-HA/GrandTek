@@ -61,6 +61,8 @@ public class CombineTile extends TileEntity {
                         return stack.getItem() == ModItems.BLACKDIAMOND.get();
                     case 3:
                         return stack.getItem() == ModItems.BLACKDIAMOND.get();
+                    case 4:
+                        return false;
 
                     default:
                         return false;
@@ -69,7 +71,7 @@ public class CombineTile extends TileEntity {
 
             @Override
             public int getSlotLimit(int slot) {
-                return 2;
+                return 1;
             }
 
             @Nonnull

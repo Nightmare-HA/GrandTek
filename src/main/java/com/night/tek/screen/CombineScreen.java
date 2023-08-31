@@ -12,7 +12,8 @@ import net.minecraft.util.text.ITextComponent;
 
 public class CombineScreen extends ContainerScreen<CombineContainer> {
 
-    private final ResourceLocation GUI = new ResourceLocation(core.MOD_ID, "textures/gui/combinegui.png");
+    private final ResourceLocation GUI = new ResourceLocation(core.MOD_ID,
+            "textures/gui/lightning_channeler_gui.png");
 
     public CombineScreen(CombineContainer screenContainer, PlayerInventory inv, ITextComponent titleIn) {
         super(screenContainer, inv, titleIn);

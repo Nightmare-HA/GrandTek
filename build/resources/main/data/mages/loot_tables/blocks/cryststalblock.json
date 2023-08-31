@@ -1,0 +1,32 @@
+{
+    "type": "mages:block",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "mages:mysticalcrystal",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 9
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "mages:mycticalcrystal",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 8
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
